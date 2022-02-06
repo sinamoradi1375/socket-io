@@ -22,5 +22,6 @@ module.exports = {
     'react/jsx-filename-extension': [1, { extensions: ['.js'] }],
     'no-extra-parens': ['error', 'all'],
     'no-multiple-empty-lines': ['error', { max: 1 }],
+    'no-unused-vars': ['warn', { vars: 'all', args: 'after-used', ignoreRestSiblings: false }],
   },
 };
